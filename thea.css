@@ -1,0 +1,424 @@
+p {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    border: 3px solid #87868b;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    color: hwb(258 0% 50%);
+    width: 95%;
+    margin: auto;
+    border-radius: 15px;
+    bottom: 50px;
+
+
+}
+
+b {
+    color: hsl(260, 2%, 26%);
+}
+
+th {
+    color: lch(80.13% 11.73 291.22);
+    font-size: 25px;
+}
+
+td {
+    font-size: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+li {
+    font-size: 25px;
+}
+
+#img {
+    float: left;
+    margin-left: 18px;
+    margin-right: 50px;
+    width: 400px;
+    height: 500px;
+}
+
+#img2 {
+    margin: auto;
+    border-radius: 20px;
+}
+
+#class1 {
+    text-align: center;
+    display: inline-block;
+    margin: 20px auto;
+    font-size: 20px;
+    color: black;
+    justify-content: center;
+    width: 100%;
+
+
+
+
+}
+
+.wrap {
+    font-synthesis-position: auto;
+    color: rgb(242, 242, 242);
+    padding: 10px 30px;
+    border: 3px solid black;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #10078f;
+    text-decoration: underline;
+}
+
+#class3 {
+    font-synthesis-position: auto;
+    color: lab(83.53% 0.37 -1);
+    padding: 10px 30px;
+    box-shadow: 0 4px 12px rgba(1, 0, 0, 1.1);
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: lch(40.83% 36.12 264.81);
+    margin: 20px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.yes1 {
+    color: hsl(0, 100%, 50%);
+}
+
+/* Keep the student page readable on narrow phone screens and wide laptops. */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 16px;
+    overflow-wrap: anywhere;
+}
+
+table {
+    width: min(100%, 1000px);
+    margin: 20px auto;
+    table-layout: auto;
+}
+
+table th,
+table td {
+    padding: clamp(8px, 2vw, 20px);
+    overflow-wrap: anywhere;
+}
+
+#img2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 12px;
+}
+
+#img2 img,
+video,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#img {
+    float: none;
+    width: min(100%, 400px);
+    height: auto;
+    margin: 0;
+}
+
+body>ul {
+    padding-left: 28px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: clamp(28px, 8vw, 40px);
+    }
+
+    p,
+    li {
+        font-size: 18px;
+    }
+
+    th {
+        font-size: 16px;
+    }
+
+    td {
+        font-size: 15px;
+    }
+
+    table th,
+    table td {
+        padding: 8px 5px;
+    }
+
+    #class3 {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    #yes {
+        font-size: 22px;
+    }
+}
+
+.yes2 {
+    text-decoration: none;
+    color: rgb(210, 210, 210);
+    box-shadow: 0 4px 12px rgba(1, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: oklab(36.994% -0.01692 -0.17644);
+
+}
+
+a:hover {
+    color: hsl(0, 0%, 10%);
+}
+
+a {
+    color: oklab(57.18600000000001% 0.19659 0.10515);
+
+
+}
+
+.img {
+
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.ex1,
+.ex2,
+.ex3,
+.ex4,
+.ex5,
+.ex6 {
+    background-color: hsl(206, 92%, 21%);
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 4px 12px rgba(1, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+span {
+
+    background-color: lch(48.92% 33.46 247.46);
+    color: white;
+}
+
+p.ex1 {
+    display: none;
+}
+
+p.ex2 {
+    display: inline;
+}
+
+p.ex3 {
+    display: block;
+}
+
+p.ex4 {
+    display: inline-block;
+}
+
+p.ex5 {
+    display: flex;
+}
+
+p.ex6 {
+    display: grid;
+}
+
+h2 {
+    text-decoration: none;
+    color: hsl(0, 1%, 28%);
+
+}
+
+.city {
+    background-color: oklch(42.62% 0.13995 256.763);
+    color: hsl(0, 6%, 84%);
+    border: 2px solid hwb(0 71% 29%);
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.color1 {
+    color: #87868b;
+}
+
+
+.flexbox {
+    background-color: oklch(42.62% 0.13995 256.763);
+    color: hwb(0 78% 20%);
+    border: 2px solid hwb(0 71% 29%);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box {
+    width: 300px;
+    border: 15px solid #155fce;
+    padding: 50px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    /*width: 800px;*/
+    /*height: 100px;*/
+    /*max-width: 900px;*/
+    width: 100%;
+    border: 4px solid oklab(85.736% -0.00463 -0.01156);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 18px;
+    background: lightblue;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.item {
+    background: royalblue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 30px 16px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+    /*min-width: 80px;*/
+}
+
+.html {
+    flex: 2;
+    background: rgb(7, 132, 159);
+    color: white;
+}
+
+.css {
+    flex: 2;
+    background: #0895b5;
+    color: black;
+}
+
+.javaScript {
+    flex: 2;
+    background: #0aacd0;
+    color: midnightblue;
+}
+
+.gridbox {
+    width: 100%;
+    border: 4px solid #cbc6c6;
+    border-radius: 8px;
+    /*display: grid;*/
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    /*grid-template-columns: repeat(4, 1fr);*/
+    gap: 18px;
+    background: lightblue;
+    padding: 30px;
+    /*flex-wrap: wrap;*/
+    /*align-items: center;*/
+
+}
+
+.htm {
+    flex: 2;
+    background: #06299a;
+    color: white;
+}
+
+.csa {
+    flex: 2;
+    background: lab(48.07% 39.34 -81.72);
+    color: black;
+}
+
+.javaScrip {
+    flex: 2;
+    background: lab(40.96% 8 -47.6);
+    color: hwb(240 79% 16%);
+}
+
+.wei {
+    flex: 2;
+    background: lch(58.43% 31.83 218.14);
+    color: hwb(240 79% 16%);
+
+}
+
+.net {
+    flex: 2;
+    background: oklab(83.706% -0.07863 -0.07712);
+    color: lab(1.12% 0.14 -0.38);
+}
+
+.c {
+    flex: 2;
+    background: oklab(56.065% -0.11548 0.04195);
+    color: hwb(240 79% 16%);
+}
+
+.python {
+    flex: 2;
+    background: lch(75.2% 59.01 161.63);
+    color: lab(0% 0 0);
+}
+
+ol {
+    margin-left: 50px;
+}
